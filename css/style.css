@@ -1,0 +1,152 @@
+.cont{
+	width: 100%;
+}
+
+#menu{
+	width: 1336px;
+	height: 80px;
+	margin: 0 auto;
+
+}
+
+#menu #logo{
+	width: 40%;
+	float: left;
+	height: 100%;
+}
+
+#menu #conteudo_menu{
+	width: 60%;
+	float: left;
+	text-align: right;
+	margin-top: 14px;
+
+
+}
+#menu #conteudo_menu ul{
+	list-style: none;
+}
+
+#menu #conteudo_menu li{
+	display: inline;
+}
+#menu #logo #bus{
+	font-size: 36pt;
+	font-family: Arial Black;
+	font-weight: bold;
+	color: #68acbc;
+	
+}
+
+#menu #logo{
+	font-family: Arial;
+	color: gray;
+	font-size: 18pt;
+	text-transform: uppercase;
+}
+
+#menu #logo #titulo{
+	color: #000;
+}
+
+#menu #conteudo_menu a{
+	text-decoration: none;
+	color: #68acbc;
+	font-family: Arial;
+	font-size: 12pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 15px;
+	padding-bottom: 2px;
+
+}
+
+#menu #conteudo_menu #select{
+	color: black;
+}
+
+#menu #conteudo_menu a:hover{
+	border-bottom: 2px solid #111;
+}
+
+#conteudo{
+	height: 260px;
+	width: 1336px;
+	margin: 0 auto;
+}	
+
+
+#conteudo img{
+	float: left;
+	margin-right: 40px;
+}
+
+#conteudo #texto_onibus{
+	height: 259px;
+	float: center;
+	color: #fff;
+	background-color: #333;
+	font-family: Arial;
+	padding: 50px 20px;
+
+}
+
+#conteudo #texto_onibus h2{
+	font-weight: bold;
+
+}
+
+#conteudo #texto_onibus h3{
+	font-family: raleway;
+	font-weight: lighter;
+	color: #68acbc;
+	margin: 15px 0;
+}
+
+#colunas{
+	width: 1336px;
+	margin: 0 auto;
+}
+
+.coluna{
+	width: 425px;
+	float: left;
+	margin-right: 30px;
+    margin-top: 100pt;
+}
+
+#colunas .numero{
+    float: left;
+    font-family: Century Gothic;
+    font-size: 100pt;
+    color: #e8f3f5;
+}
+
+#colunas .titulo_coluna{
+    float: left;
+}
+
+#colunas p{
+    clear: both;
+}
+
+#colunas .numero p{
+    margin: 0;
+    line-height: 0.8;
+}
+
+#colunas .titulo_coluna h2{
+	color: #68acbc;
+    margin-top: 30px;
+}
+
+#colunas .titulo_coluna h3{
+    font-family: raleway;
+	font-weight: 300;
+}
+
+#colunas .paragrafo{
+    margin-top: 15px;
+    color: darkgray;
+    line-height: 1.5em;
+}
